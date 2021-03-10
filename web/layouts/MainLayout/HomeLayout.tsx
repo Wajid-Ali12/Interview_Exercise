@@ -1,4 +1,4 @@
-import {AppBar, IconButton, makeStyles, Box} from "@material-ui/core";
+import {AppBar, IconButton, makeStyles, Box, Typography} from "@material-ui/core";
 import React from "react"
 
 
@@ -37,7 +37,7 @@ type Props = {
 }
 
 export const HomeLayout = (props: Props) => {
-
+ 
     const classes = useStyles()
     const {children} = props
     return (
@@ -48,8 +48,10 @@ export const HomeLayout = (props: Props) => {
                 </Box>
                 <Box className={classes.logoBox}>
                     <img src="/images/logo.svg" alt=""/>
+
                 </Box>
             </AppBar>
+           
             <main>
                 {children}
             </main>

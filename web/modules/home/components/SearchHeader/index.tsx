@@ -20,7 +20,6 @@ const SearchHeader = () => {
     const classes = useStyles()
     return (
         <Box className={classes.root}>
-            <img width="100%" src="/images/Homepage/BackgroundCity.jpg" alt="background image"/>
             <Box className={classes.content} p={12}>
                 <Title/>
                 <Search/>

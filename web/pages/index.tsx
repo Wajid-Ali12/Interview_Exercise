@@ -1,4 +1,4 @@
-import {HomeLayout} from "../layouts/MainLayout";
+import {HomeLayout} from "../layouts/MainLayout/HomeLayout";
 import SquareGuides from "../modules/home/components/SquareGuides";
 import SearchHeader from "../modules/home/components/SearchHeader";
 

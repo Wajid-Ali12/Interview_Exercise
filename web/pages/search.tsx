@@ -1,5 +1,5 @@
 import {makeStyles, Box} from "@material-ui/core";
-import {HomeLayout} from '../layouts/MainLayout'
+import {HomeLayout} from '../layouts/MainLayout/HomeLayout'
 import Header from "../modules/search/components/Header";
 import SearchLocation from "../modules/search/components/Search";
 import Map from "../modules/search/components/Map";
